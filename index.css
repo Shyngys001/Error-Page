@@ -33,6 +33,7 @@ h3{
 .main{
     display: flex;
     padding: 100px;
+    
 }
 
 header{
@@ -92,14 +93,12 @@ footer{
         width: 233px;
         left: 24px;
         top: 20px;
-        border-radius: nullpx;
-        font-family: Inconsolata;
         font-size: 24px;
         font-weight: 700;
         line-height: 25px;
         letter-spacing: -0.08em;
-        text-align: left;
-
+        text-align: start;
+        padding-left: 0px;
     }
 
     img{
@@ -113,6 +112,8 @@ footer{
     }
     .main{
         display: block;
+        padding: 0px;
+
     }
     .sec_2{
         color: #4F4F4F;
@@ -142,7 +143,6 @@ footer{
 
     footer{
         margin: 0 auto;
-        padding-left: 50px;
     }
 
 }
