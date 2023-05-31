@@ -2,16 +2,6 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
-p{
-    font-family: Space Mono;
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 95px;
-    letter-spacing: -0.035em;
-    text-align: left;
-    
-}
-
 img{
     height: 447.4263916015625px;
     width: 539.2236938476562px;
@@ -47,11 +37,17 @@ h3{
 
 header{
     height: 25px;
-    width: 133px;
+    width: 250px;
     left: 77px;
     top: 40px;
     border-radius: nullpx;
     padding-left: 100px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.08em;
+    text-align: left;
+
 }
 
 footer{
@@ -61,10 +57,91 @@ footer{
     top: 1039px;
     border-radius: nullpx;
     color: #BDBDBD;
-
+    margin: 0 auto;
 }
 
 .second{
     display: block;
     justify-content: start;
+}
+
+
+.sec_1 {
+    font-family: Space Mono;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 95px;
+    letter-spacing: -0.035em;
+    text-align: left;   
+    font-family: "Space Mono", monospace;
+    width: 586px;
+    height: 190px;
+}
+
+.sec_2{
+    color: #4F4F4F;
+    font-family: "Space Mono", monospace;
+    font-weight: 400;
+    width: 300px;
+    height: 108px;
+}
+
+@media only screen and (max-width: 480px) {
+    header{
+        height: 25px;
+        width: 233px;
+        left: 24px;
+        top: 20px;
+        border-radius: nullpx;
+        font-family: Inconsolata;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 25px;
+        letter-spacing: -0.08em;
+        text-align: left;
+
+    }
+
+    img{
+        height: 238.00001525878906px;
+        width: 286.829833984375px;
+        left: 44px;
+        top: 109px;
+        border-radius: 0px;
+        margin: 0 auto;
+
+    }
+    .main{
+        display: block;
+    }
+    .sec_2{
+        color: #4F4F4F;
+        height: 142px;
+        width: 350px;
+        left: 24px;
+        top: 407px;
+        border-radius: nullpx;
+        width: 328px;
+        height: 81px;
+        font-family: "Space Mono", monospace;
+        padding-bottom: 50px;
+    }
+    .sec_1{
+        font-family: Space Mono;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 71px;
+        letter-spacing: -0.035em;
+        text-align: left;
+        width: 350px;
+        height: 142;
+        font-family: "Space Mono", monospace;
+    }
+
+
+    footer{
+        margin: 0 auto;
+        padding-left: 50px;
+    }
+
 }
